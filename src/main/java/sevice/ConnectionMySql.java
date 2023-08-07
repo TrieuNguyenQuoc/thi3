@@ -1,4 +1,4 @@
-package sevice.ISataffSevice;
+package sevice;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

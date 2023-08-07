@@ -1,9 +1,8 @@
-package controller;
-
-import Sevice.DepartmentSevice;
-import Sevice.StaffSevice;
-import model.Department;
-import model.Staff;
+package Controller;
+import modle.Department;
+import modle.Staff;
+import sevice.DepartmentSevice;
+import sevice.StaffSevice;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -137,7 +136,7 @@ public class StaffController extends HttpServlet {
         Department classRoom = new Department(id);
         Staff staff = new Staff(name, salary, email, address, phoneNumber, classRoom);
         staffSevice.edit(staffId, staff);
-        response.sendRedirect(request.getContextPath() + "/staff?action=findAll");
+        response.sendRedirect(request.getContextPath() + "/ staff?action=findAll");
     }
     private void createStudent(HttpServletRequest request, HttpServletResponse response) throws SQLException, IOException {
         String name = request.getParameter("name");

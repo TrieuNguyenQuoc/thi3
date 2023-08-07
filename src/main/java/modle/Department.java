@@ -1,4 +1,4 @@
-package model;
+package modle;
 
 public class Department {
     private int id;

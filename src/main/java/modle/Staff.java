@@ -1,4 +1,4 @@
-package model;
+package modle;
 
 public class Staff {
     private int id;

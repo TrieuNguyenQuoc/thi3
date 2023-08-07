@@ -1,8 +1,7 @@
 package sevice;
-
-
-
-import sevice.ISataffSevice.ConnectionMySql;
+import modle.Department;
+import modle.Staff;
+import sevice.ISevice.IStaffSevice;
 
 import java.sql.*;
 import java.util.ArrayList;

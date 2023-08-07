@@ -1,6 +1,7 @@
 package sevice;
 
 
+import modle.Department;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
